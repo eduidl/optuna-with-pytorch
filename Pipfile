@@ -1,0 +1,16 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.org/simple"
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+torch = "==0.4.1"
+torchvision = "*"
+optuna = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.6"
