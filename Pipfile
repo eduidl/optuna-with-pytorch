@@ -11,6 +11,7 @@ torch = "==0.4.1"
 torchvision = "*"
 optuna = "*"
 jupyter = "*"
+tqdm = "*"
 
 [requires]
 python_version = "3.6"

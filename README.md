@@ -9,5 +9,5 @@
 
 ```py
 pipenv sync
-pipenv run jupyter notebook 
+pipenv run jupyter notebook mnist.ipynb
 ```
