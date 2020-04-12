@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "optuna-with-pytorch"
+version = "0.1.0"
+description = "Sample code of Optuna with PyTorch"
+authors = ["Yuma Hiramatsu <yuma.hiramatsu@gmail.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+optuna = "^1.3.0"
+pandas = "^1.0.3"
+torch = "^1.4.0"
+torchvision = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+flake8-import-order = "^0.18.1"
+mypy = "^0.770"
+yapf = "^0.29.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

@@ -2,12 +2,13 @@
 
 ## Requirements
 
-- Python 3.6
-- pipenv
+- Python 3.6+
+- Poetry
 
 ## Run
 
-```py
-pipenv sync
-pipenv run jupyter notebook mnist.ipynb
+```terminal
+$ poetry env use 3.6
+$ poetry install --no-dev
+$ poetry run python mnist.py
 ```
