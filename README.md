@@ -8,7 +8,7 @@
 ## Run
 
 ```terminal
-$ poetry env use 3.6
+$ poetry env use python3.6
 $ poetry install --no-dev
 $ poetry run python mnist.py
 ```
